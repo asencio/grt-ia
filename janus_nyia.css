@@ -1,0 +1,893 @@
+﻿/*//////////////////// generelt */
+
+body {
+	line-height: 1.55;
+}
+h1, .h1 {
+	font-size: 2.8rem;
+}
+h2 {
+	margin: 2.5rem 0 .8rem;
+	font-size: 2.4rem;
+}
+h3 {
+	margin: 2.5rem 0 .8rem;
+	font-size: 2rem;
+	font-weight: 400;
+}
+p {
+	margin: 0 0 1.5rem;
+}
+.dap-grid-title {
+	margin: 4rem 0 1rem;
+}
+
+@media (min-width: 768px) {
+h1, .h1 {
+	font-size: 4.5rem;
+}
+ul, ol {
+	line-height: 3rem;
+}
+.MPtext ul,
+.MPtext ol {
+	line-height: 1.42857143;
+}
+.MPtext ul li,
+.MPtext ol li {
+	padding-bottom: 1rem;
+}
+}
+.btn {
+	border-radius: 0;
+}
+.dap-banner-element {
+	padding: 1.5em 0;
+	background: #ffc61e;
+	color: black;
+}
+/******************* menuen */
+#sktsNavModal .modal-nav-body .row:first-child {
+	display: none;
+}
+
+.dap-top-nav__login span.nounderline.hidden-xs.skts-header-item__text {
+	color: black;
+}
+.skts-icon.dap-ikon-log-ind {
+	color: black;
+}
+button.skts-header-item.skts-header-item--logo, a.skts-header-item.skts-header-item--logo {
+	background: url(../images/skat-logo-white.svg) no-repeat center center;
+	background-size: 4.5rem;
+}
+button.skts-header-item, a.skts-header-item {
+	display: block;
+	width: 100%;
+	background: transparent;
+	border: none;
+	height: 6rem;
+	line-height: 6rem;
+	padding-top: 0;
+}
+.skts-icon.dap-ikon-menu {
+	font-size: 2.3rem;
+	margin: -.3rem .8rem -.2rem 0;
+}
+a.skts-header-item .skts-icon {
+	margin: 0.2rem .8rem -.2rem 0;
+	font-size: 2.3rem;
+}
+
+@media (min-width: 768px) {
+button.skts-header-item.skts-header-item--logo, a.skts-header-item.skts-header-item--logo {
+	background: url(../images/skat-logo-white-full.svg) no-repeat center 1.7rem;
+	background-size: 15rem;
+}
+button.skts-header-item, a.skts-header-item {
+	height: 8rem;
+	line-height: 8rem;
+}
+}
+.skts-icon-bar {
+	height: 0.3rem;
+	width: 1.8rem;
+}
+.hidden-md.hidden-lg.col-xs-3.skts-bg-main-1 {
+	padding: 0;
+}
+.hidden-md.hidden-lg.col-xs-3.skts-bg-main-1 .skts-menu-button {
+	border-width: 0;
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	background: #395f77;
+	padding: 0;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	justify-content: center;
+	align-items: center;
+}
+.hidden-md.hidden-lg.col-xs-3.skts-bg-main-1 .skts-menu-button:hover, .hidden-md.hidden-lg.col-xs-3.skts-bg-main-1 .skts-menu-button:active, .hidden-md.hidden-lg.col-xs-3.skts-bg-main-1 .skts-menu-button:focus {
+	background: #14364c;
+}
+
+@media (min-width: 992px) {
+.segmentBorger.active {
+	background-color: #395f77 !important;
+	color: white !important;
+}
+.segmentBorger.active:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: .8em solid transparent;
+	border-right: .8em solid transparent;
+	border-top: .8em solid #395f77;
+	position: absolute;
+	bottom: -.55em;
+	left: calc(50% - .4em);
+	transform: none;
+	background: none;
+}
+.segmentErhverv.active {
+	background-color: #42667d !important;
+	color: white !important;
+}
+.segmentErhverv.active:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: .8em solid transparent;
+	border-right: .8em solid transparent;
+	border-top: .8em solid #42667d;
+	position: absolute;
+	bottom: -.55em;
+	left: calc(50% - .4em);
+	transform: none;
+	background: none;
+}
+.segmentBorger.active, .segmentErhverv.active {
+	cursor: auto;
+}
+}
+/*//////////////// hover på menuen*/
+
+.col-md-20, .hidden-md.hidden-lg.col-xs-3.skts-bg-main-1 {
+	padding: 0;
+}
+.col-md-20:hover, .col-md-20:active, .col-md-20 .skts-header-item:focus, .hidden-md.hidden-lg.col-xs-3.skts-bg-main-1:hover, .hidden-md.hidden-lg.col-xs-3.skts-bg-main-1:active, .hidden-md.hidden-lg.col-xs-3.skts-bg-main-1 .skts-header-item:focus {
+	background-color: #14364c;
+}
+.dap-top-nav__login:hover, .dap-top-nav__login:active, .dap-top-nav__login .skts-header-item:focus {
+	background-color: #FFAE1E;
+}
+/**** størrelse på ikoner**************************/
+.skts-icon--menu-hvid {
+	background-size: 1.5em;
+}
+.skts-icon--borger-hvid {
+	background-size: 1.5em;
+	margin-top: -.1em;
+}
+.skts-icon--erhverv-hvid {
+	background-size: 1.5em;
+	margin-top: -.1em;
+}
+.skts-icon--soeg-hvid {
+	background-size: 1.5em;
+}
+.skts-icon--log-ind-sort {
+	background-size: 1.5em;
+}
+/*//////////////////////// modal vindue: log på//////////////*/
+
+div#loginModal {
+	padding: 5% !important;
+}
+#loginModal span.skts-icon {
+    font-size: 2.3rem;
+    margin-right: 1rem;
+}
+.dap-login--links-group ul li {
+	padding: 0.25em 0;
+}
+#loginModal .modal-content {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
+	display: flex;
+	display: -webkit-flex;
+	border: none;
+}
+#loginModal .modal-body {
+	padding: 0;
+	width: 100%;
+}
+#loginModal .dap-login-block {
+	padding: 0 .0625em 0 0;
+}
+#loginModal .skts-icon-right-open-big {
+	padding: 0.6rem 0.5rem 1rem 2.5rem;
+	background: url(../images/arrow--blue.svg) left 0 top 0.9rem no-repeat;
+	margin-top: 1em;
+	border-bottom: solid .0625em transparent;
+}
+#loginModal .skts-icon-right-open-big:hover, #loginModal .skts-icon-right-open-big:active, #loginModal .skts-icon-right-open-big:focus {
+	border-bottom: solid .0625em #395f77;
+	text-decoration: none;
+}
+#loginModal .dap-login--links-group {
+	padding: 4rem 3rem;
+	margin-top: .0625em;
+	background: white;
+}
+#loginModal .list-unstyled {
+	margin-top: 2em;
+	border-top: .0625em solid #9c9c9c;
+	padding-top: .5em;
+}
+#loginModal .modal-dialog {
+	width: 100%;
+	margin: 0;
+}
+#loginModal .skts-icon--erhverv-sort, #loginModal .skts-icon--borger-sort {
+	margin: 0 .6em 0.6em 0;
+	background-size: 2.4rem;
+}
+#loginModal .dap-btn-nemid:hover, .dap-btn-nemid:active, .dap-btn-nemid:focus {
+	background: #FFAE1E;
+	color: black;
+}
+#loginModal .dap-btn-nemid {
+	padding: 1.3em 2em;
+	margin: 0 auto;
+	width: 100%;
+}
+#loginModal .modal-header {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+#loginModal .row {
+	margin: 0;
+}
+
+@media (min-width: 400px) {
+#loginModal .dap-login--links-group {
+	padding: 6rem;
+	background: white;
+}
+}
+
+@media (min-width: 768px) {
+#loginModal .modal-dialog.modal-md.dap-modal-container {
+	align-items: center;
+	justify-content: center;
+	max-width: none;
+	width: 69.09rem;
+	margin: 0 auto;
+}
+#loginModal .modal-header {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+#loginModal .dap-login--links-group {
+	padding: 6rem;
+	background: white;
+}
+}
+/*//////////////////////////// modal vindue: søg*/
+#searchModal {
+	padding: 0 !important;
+}
+#searchModal .modal-content {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+#searchModal .modal-header {
+	right: 0;
+	top: 0;
+}
+/*/////////////////////////////////// modal vindue: burgermenu/////////////////////////////////////*/
+.skts-nav-modal .modal-header {
+	background-color: transparent;
+}
+.skts-nav-modal ul {
+	background-color: #fff;
+	list-style: none;
+	margin: 0 2em .0625em;
+	padding: 6rem;
+}
+.skts-nav-modal ul a {
+	padding: 0.9rem 0rem 1rem 2.5rem;
+	background: url(../images/arrow--blue.svg) left 0 top .95rem no-repeat;
+	margin-top: 1em;
+	border-bottom: solid .0625em transparent;
+	display: inline-block;
+}
+.skts-nav-modal ul a.active, .skts-nav-modal ul a:hover {
+	color: black;
+	background-color: transparent;
+	border-bottom: .0625em solid black;
+	background: url(../images/arrow.svg) left 0 top .95rem no-repeat;
+}
+.skts-nav-modal ul a.active::before {
+	content: '';
+	width: 0em;
+	height: 0em;
+	border-top: .6em solid transparent;
+	border-bottom: .6em solid transparent;
+	border-left: .6em solid black;
+	position: absolute;
+	left: 3.2rem;
+	    margin-top: .4rem;
+}
+.skts-nav-modal .modal-header .close {
+	margin-top: .2rem;
+	margin-right: 1.7rem;
+}
+/*//////////////////// bread crumb ///////////////////////////*/
+
+
+.skts-breadcrumb-container {
+	position: relative;
+	background-color: transparent;
+}
+.skts-breadcrumb-container .col-md-12 {
+	padding: 0;
+}
+#breadcrumb {
+	background-color: #dedede;
+}
+#breadcrumb > li {
+	color: #000;
+	display: inline-block;
+	list-style: none;
+}
+#breadcrumb > li.last a {
+	color: black;
+	text-decoration: none;
+	cursor: default;
+}
+#breadcrumb a {
+	text-decoration: none;
+}
+#breadcrumb a:hover, #breadcrumb a:focus {
+	text-decoration: underline;
+}
+.dap-nav-tab {
+	background-color: #dedede;
+}
+.nav-tabs > li > a {
+	padding: 1.2em 2em;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+#breadcrumb > li:after {
+	content: "";
+	float: right;
+	display: block;
+	text-decoration: none;
+	width: 6rem;
+	height: 2.2rem;
+	background: url("../style/images/arrow.svg") 50% .2rem no-repeat;
+	background-size: 1.2rem;
+	margin: .3rem 0 0 0;
+}
+#breadcrumb > li:last-child:after {
+	background-image: none;
+}
+
+@media (min-width: 768px) {
+.nav-tabs > li > a {
+	padding: 1.8em 2em;
+}
+}
+/*/////////////////////////////// banner, øverst på alle sider /////////////*/
+.dap-banner {
+	background: url(images/nyIA/banner2.jpg) no-repeat center #000;
+	background-size: cover;
+	color: white;
+	padding: 2rem;
+	margin-bottom: 0;/* er nødvendig på emnetekstsider -> .links4u:before*/
+	/*z-index: 1;*//* er nødvendig på emnetekstsider -> .links4u:before*/
+	position: relative;
+}
+.dap-banner h1, .dap-banner h2, .dap-banner h3 {
+    font-weight: 100;
+}
+.dap-banner a {
+    display: inline-block;
+}
+.dap-banner a.dap-aktionslink-skatdk {
+	display: inline-block;
+	color: black;
+}
+
+.dap-banner.borger {
+	background-image: url(images/nyIA/nyt-design.jpg);
+}
+
+@media (min-width: 992px) {
+.dap-banner {
+	margin-bottom: -1.2rem;/* er nødvendig på emnetekstsider -> .links4u:before*/
+}
+}
+/*/////////////////////////////// transportsider /////////////*/
+.dap-transport-box-container {
+	margin: 2rem auto 4rem;
+}
+.container.text-part, .container.text-part .container {
+	width: 100%;
+}
+.skts-transport-box {
+	background: transparent;
+	padding: 2rem 0 1rem 0rem;
+	margin: .5rem 0;
+	border-bottom: .0625rem solid #395f77;
+	position: relative;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+}
+.skts-transport-box:hover, .skts-transport-box:focus {
+	background: transparent;
+	color: black;
+	border-bottom: .0625rem solid #000;
+}
+.skts-transport-box .skts-icon {
+	float: left;
+	margin: .4rem 1.2rem -.4rem 0;
+	font-size: 2.3rem;
+}
+.skts-transport-box .title {
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+	font-size: 1.5em;
+	font-weight: 100;
+	margin-right: 1em;
+}
+.skts-transport-box:hover .title, .skts-transport-box:focus .title {
+	margin-right: 1.4em;
+}
+.skts-transport-box .subTitle {
+	margin: .5em 0;
+}
+.skts-transport-box:after {
+	content: '\e903';
+	display: block;
+	font-family: 'dap-ikon-font';
+	font-size: 2.5rem;
+	/*height: 4rem;
+	line-height: 4rem;
+	margin-top: -3.05rem;*/
+	position: absolute;
+	right: 0;
+	top: 2.3rem;
+	-webkit-transition: right 300ms;
+	-moz-transition: right 300ms;
+	-ms-transition: right 300ms;
+	-o-transition: right 300ms;
+	transition: right 300ms;
+}
+.skts-transport-box.beta {
+	color: #6f6f6f;
+	border-bottom: .0625rem solid #6f6f6f;
+	cursor: not-allowed;
+	background: none;
+}
+.skts-transport-box.beta:after {
+	display: none;
+}
+.skts-transport-box.beta:hover, .skts-transport-box.beta:focus {
+	color: #6f6f6f;
+	border-bottom: .0625rem solid #6f6f6f;
+	cursor: not-allowed;
+	background: none;
+}
+.skts-transport-box.beta .skts-icon {
+	opacity: .7;
+}
+.grid-bottom {
+	padding: 0;
+}
+
+@media (min-width: 500px) {
+.skts-transport-box {
+	width: 87%;
+	margin: .5rem 6.5%;
+}
+.skts-transport-box:hover, .skts-transport-box:focus {
+	margin: .5rem 6.5%;
+}
+.skts-transport-box:hover::after, .skts-transport-box:focus::after {
+	right: 1rem;
+}
+}
+/*////// mest besøgte sider */
+
+.dap-grid-pad-front {
+	background: url(images/nyIA/crowd5.jpg) center center fixed;
+	background-size: cover;
+	margin: 2em auto 0;
+	overflow: hidden;
+}
+.quick-links-container {
+	max-width: none;
+	display: block;
+}
+#quick-links-borger .col-xs-12.col-sm-6.col-md-3, #quick-links-erhverv .col-xs-12.col-sm-6.col-md-3 {
+	padding: 0;
+}
+.quick-links {
+	width: 100%;
+	padding: 100% 0 0 0;
+	border-bottom: .0625em solid white;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+	position: relative;
+	margin: 0 0 -.5rem 0;
+	background: rgba(0,0,0, 0.40);
+	color: rgba(255, 255, 255, .7);
+}
+.quick-links:hover, .quick-links:focus, .quick-links:active {
+	background: rgba(0,0,0, 0.00);
+	color: rgba(255, 255, 255, 1);
+}
+.quick-links:hover div, .quick-links:focus div, .quick-links:active div {
+	color: white;
+}
+.quick-links div {
+	position: absolute;
+	top: 62%;
+	width: 80%;
+	text-align: center;
+	left: 10%;
+	color: rgba(255, 255, 255, .7);
+}
+.quick-links-container div a span {
+	position: absolute;
+	top: 38%;
+	margin: 0;
+	width: 100%;
+	left: 0;
+	font-size: 2.8rem;
+}
+.quick-links-erhverv div {
+	top: 65%;
+}
+
+@media (min-width: 450px) {
+.quick-links {
+	padding: 100% 0 0 0;
+	border-right: .0625em solid white;
+	float: left;
+	margin: 0;
+}
+#quick-links-borger .col-xs-12, #quick-links-erhverv .col-xs-12 {
+	width: 50%;
+}
+}
+
+@media (min-width: 768px) {
+.quick-links div {
+	top: 60%;
+}
+.quick-links-erhverv div {
+	top: 64%;
+}
+#quick-links-erhverv .col-xs-12 {
+	width: 20%;
+}
+#quick-links-borger .col-xs-12 {
+	width: 25%;
+}
+.quick-links div.icon-chart {
+	top: 25%;
+}
+}
+@media (min-width: 1700px) {
+a.quick-links div {
+	font-size: 2.3rem;
+	font-weight: 100;
+}
+.quick-links-container div a span {
+	font-size: 3.3rem;
+}
+}
+@media (min-width: 992px) {
+.skts-transport-box {
+	min-height: 10.3rem;
+}
+.skts-transport-box .title {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.skts-transport-box .subTitle {
+	white-space: nowrap;
+	overflow: hidden;
+}
+}
+
+/************************ Start added from the latest grunt package 05.07-2017 ************************************/
+.links4u > #subtreeMiniWrapper {
+	background: #DEDEDE;
+	padding: 1.6em;
+	position: relative;
+	margin: .6em 0 0 0;
+}
+
+hr.col1, hr.col2 {
+	display: none;
+}
+
+table.reportHdr .hist {
+	padding-bottom: 10px;
+}
+
+.badgetWrapper > .badget > .badget > img {
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+
+.links4u .subtreeMini-t1186 ul > li.active::before {
+	margin-left: -2.6rem !important;
+}
+
+#MPtext .hilight, #MPtextDynamic .hilight {
+	background-color: #ccc;
+}
+
+/************************ End added from the latest grunt package 05.07-2017 **************************************/
+
+/*/////////////////////////////// Side styling //////////////*/
+
+.container-fluid.grid-attention {
+    padding: 0;
+}
+.attentionWrapper {
+	background: #DEDEDE;
+	padding: 1rem 0;
+	margin: 2rem 0 4rem;
+}
+.attention {
+	display: block;
+	max-width: 50rem;
+	margin: 4rem auto;
+	border: .1rem solid #afafaf;
+	padding: 3rem;
+	position: relative;
+	background: white;
+}
+.attention::after {
+	content: '';
+	position: absolute;
+	margin: auto;
+	bottom: -1.1rem;
+	left: 9rem;
+	width: 1.2em;
+	height: 1.2em;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	border-right: .1rem solid #afafaf;
+	border-bottom: .1rem solid #afafaf;
+	background: white;
+}
+.faktaboksWrapper {
+    margin: 3rem 0;
+}
+.faktaboks {
+    border: 1px solid;
+    padding: 2rem;
+}
+.faktaboks h1, .faktaboks h2, .faktaboks h3 {
+	text-align:center;
+}
+@media (min-width: 768px) {
+	.faktaboks {
+    padding: 3rem;
+}
+}
+
+/*////////////////////fold ind/fold ud ////////////////////*/
+.toggleHdr4u.skts-collapse.skts-collapse-arrow.skts-header-section {
+	/*background: #FFF;
+	padding: 0;*/
+	cursor: pointer;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+}
+.toggleHdr4u.skts-collapse.skts-collapse-arrow.skts-header-section h2 {
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0;
+	color: #395f77;
+	line-height: 1.5;
+	/*float: left;*/ /*Added for Fi-Fu button*/
+	text-align: left;
+}
+.toggleHdr4u.skts-collapse.skts-collapse-arrow.skts-header-section:hover, .toggleHdr4u.skts-collapse.skts-collapse-arrow.skts-header-section:active, .toggleHdr4u.skts-collapse.skts-collapse-arrow.skts-header-section button:focus, .toggleHdr4u.skts-collapse.skts-collapse-arrow.skts-header-section.skts-expanded {
+	background-color: #e2e8eb;
+}
+.skts-collapse-arrow.skts-header-section.skts-expanded,
+.skts-collapse-arrow.skts-header-section.skts-expanded button {
+	background-image: url(../images/expanded.svg);
+	background-repeat: no-repeat;
+}
+/*.skts-collapse.skts-collapse-arrow,*/ 
+.dap-fifu,
+.skts-collapse.skts-collapse-arrow a, .skts-collapse.skts-collapse-arrow button {
+	background-image: url(../images/collapsed.svg);
+	background-position: right 1em center;
+	background-repeat: no-repeat;
+	background-size: 1em;
+	background-color: transparent;
+	border: none;
+	display: block;
+	padding: 2em 3em 2em 1em;
+	text-decoration: none;
+	-webkit-transition: background-color 300ms ease;
+	-moz-transition: background-color 300ms ease;
+	-ms-transition: background-color 300ms ease;
+	-o-transition: background-color 300ms ease;
+	transition: background-color 300ms ease;
+	width: 100%; /*Added for Fi-Fu button*/
+}
+.dap-well--collapse .panelBody {
+	padding: 1em;
+}
+.MPtext .panelBody h3:first-child {
+	margin-top: 0;
+}
+
+@media (min-width: 768px) {
+.dap-well--collapse .panelBody {
+	padding: 2em;
+}
+/*.skts-collapse.skts-collapse-arrow,*/ 
+.dap-fifu,
+.skts-collapse.skts-collapse-arrow a, .skts-collapse.skts-collapse-arrow button {
+		padding: 2em 5em 2em 2em;
+		background-position: right 2em center;
+	}
+}
+/*//////////////////////////////////// footer styling /////////////////////////////////*/
+.MPbottom {
+	margin-top: 0;
+}
+.dap-footer-container {
+	max-width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	padding: 0;
+}
+.dap-footer-container .dap-footer-links {
+	width: 100%;
+	float: none;
+	margin: 0;
+	border-top: solid 1px #FFF;
+	border-right: solid 1px #FFF;
+	border-bottom: none;
+	border-left: none;
+	padding: 1em;
+	box-sizing: border-box;
+}
+.dap-ul-footer li a:focus {
+	text-decoration: underline;
+}
+
+.dap-footer-titel {
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #000;
+    text-align: start;
+    margin: 0 0 1.5rem;
+}
+
+@media (min-width: 568px) {
+.dap-footer-container .dap-footer-links {
+	width: 50%;
+	padding: 2em;
+}
+}
+
+@media (min-width: 992px) {
+.dap-footer-container .dap-footer-links {
+	width: 25%;
+	padding: 3em;
+	box-sizing: border-box;
+}
+}
+/*.dap-footer-container .dap-footer-links > p {
+	font-size: 1.5em;
+}*/
+.dap-footer-ikoner span.social_media_icon {
+	background: none /* kan fjernes når alt med url(sprite) er fjernet fra dapnyia*/;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	font-size: 2.2rem;
+}
+ul.dap-ul-footer li {
+	margin: .6em 0;
+}
+.dap-footer-ikoner .twitter, .dap-footer-ikoner .linkedin, .dap-footer-ikoner .facebook, .dap-footer-ikoner .instagram, .dap-footer-ikoner .pinterest, .dap-footer-ikoner .youtube {
+	text-decoration: none;
+	width: calc(100% / 7);
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0.8em 0 !important;
+}
+.dap-footer-ikoner .twitter:hover, .dap-footer-ikoner .twitter:active, .dap-footer-ikoner .twitter:focus {
+	color: #00aced;
+}
+.dap-footer-ikoner .linkedin:hover, .dap-footer-ikoner .linkedin:active, .dap-footer-ikoner .linkedin:focus {
+	color: #007bb6;
+}
+.dap-footer-ikoner .facebook:hover, .dap-footer-ikoner .facebook:active, .dap-footer-ikoner .facebook:focus {
+	color: #3b5998;
+}
+.dap-footer-ikoner .instagram:hover, .dap-footer-ikoner .instagram:active, .dap-footer-ikoner .instagram:focus {
+	color: #bc2a8d;
+}
+.dap-footer-ikoner .pinterest:hover, .dap-footer-ikoner .pinterest:active, .dap-footer-ikoner .pinterest:focus {
+	color: #cb2027;
+}
+.dap-footer-ikoner .youtube:hover, .dap-footer-ikoner .youtube:active, .dap-footer-ikoner .youtube:focus {
+	color: #bb0000;
+}
+
+@media only screen and (max-width: 560px) {
+div.dap-footer-ikoner {
+	width: auto;
+	margin: 0.8em 0 !important;
+}
+}
+footer, .skts-push {
+	height: auto;
+	padding: 1.6rem;
+	padding: 2.3rem 3em;
+}
+footer .col-sm-4 {
+	padding: 0;
+}
+.skts-logo-small {
+	margin-top: -.3em;
+}
+/*///////////////////////////////////////////////// table-responsive */
+
+@media screen and (max-width: 767px) {
+    .table-responsive table.table th,
+    .table-responsive table.table td {
+        white-space: normal !important;
+    }
+}

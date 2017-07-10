@@ -1,0 +1,83 @@
+.link4u, .video4u {
+	background: #DEDEDE;
+}
+.link4u .functionbarWrapper {
+    padding: 2.6rem;
+} 
+.link4u, .links4u, .video4u {
+	margin: .1rem 0 0 0;
+}
+.links4u ul {
+	padding-left: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.links4u ul > li {
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+}
+.links4u ul > li {
+	background: #b5b5b5;
+}
+.links4u ul > li.active {
+	padding: .7em 0 .7em 2.6rem;
+	background: #dedede;
+	color: black;
+}
+
+.links4u ul > li.active::before {
+	border-right: .8em solid #dedede;
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-top: .8em solid transparent;
+	border-bottom: .8em solid transparent;
+	margin-left: 0rem;
+	position: absolute;
+	margin-top: 1.5rem;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+}
+
+.links4u ul > li.active:nth-child(odd)::before, .links4u ul > li.active:nth-child(even)::before {
+	margin-left: -3.5rem;
+	margin-top: 0.3rem;
+}
+.links4u ul > li > a {
+	text-decoration: none;
+	display: block;
+	padding: .7em 0 .7em 2.6rem;
+}
+.links4u ul > li > a:hover, .links4u ul > li > a:focus {
+	color: black;
+}
+.links4u ul > li:hover, .links4u ul > li:active, .links4u ul > li:focus {
+	background: #dedede;
+	color: black;
+}
+.sidemenu {
+	padding: .6rem 0;
+}
+
+@media (min-width: 992px) {
+.links4u .sistersWrapper:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: .8em solid transparent;
+	border-right: .8em solid transparent;
+	border-top: .8em solid #DEDEDE;
+	position: absolute;
+	top: -5rem;
+	right: 17.5rem;
+	z-index: -1; /* er nødvendig hvis topbanner (.dap-banner) er på emnetekstsider*/
+}
+.link4u, .rate4u, .links4u, .video4u {
+	width: 35rem;
+	margin: .2rem 0 0 auto;
+}
+}

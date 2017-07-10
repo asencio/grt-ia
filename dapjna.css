@@ -1,0 +1,174 @@
+/* ==========================================================================
+   Temporær style til Jan, indtil konsolideret
+   v 1.1
+   ========================================================================== */
+
+.layoutMasterWrapper .dap-text-container {
+    margin-top: 60px;
+}
+
+.layoutMasterWrapper .dap-grid-container h1 {
+    margin-bottom: 20px;
+}
+
+.functionbarMetadataWrapper {
+    font-size: 0.8em;
+}
+
+.functionbarMetadataWrapper .metadata {
+    padding: 4px 0;
+}
+
+/*.captionSubtitle, .MPcontentHdrRowsWrapper {
+    font-size: 0.8em;
+}*/
+
+.MPcontentHdrRowsWrapper {
+    margin-bottom: 8px;
+}
+
+table.edge tr.edge td.edge {
+    padding: 2px;
+}
+
+.layoutMaster-o80859 .subtreeWrapper {
+    display: none;
+}
+
+/*.dap-well--collapse a {
+    padding: 20px 10px;
+    cursor: pointer;
+}*/
+
+.dap-well--collapse {
+    margin: 20px 0;
+}
+
+.dap-well--collapse .panelBody {
+    padding-top: 10px;
+}
+
+.dap-well--collapse .skts-header-section {
+    background-color: #e2e8eb;
+}
+
+.ui-autocomplete-input, .ui-autocomplete, .ui-autocomplete-loading {
+    z-index: 9999999 !important;
+}
+
+.subtreePrefixWrapper .metaHdr {
+    font-size: 1.2em;
+}
+
+.functionbar > a > img.functionbarImageWrapper {
+    width: 270px;
+}
+/* Afhænger af videoOverlayimage setup */
+.functionbar > a > img.video {
+    height: 60px;
+    margin-top: -180px;
+    margin-left: 90px;
+}
+
+.functionbar > a > .functionbar {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.functionbarWrapper .functionbarHdr {
+    margin-bottom: 10px;
+}
+
+/*.segmentBorger.active, .segmentErhverv.active {
+    background-color: #FC3;
+    color: #000;
+}*/
+
+#MPtext video {
+    max-width: 800px;
+    width: 100%; /* bedste forslag? */
+    height: 100%;
+}
+
+/* breaking */
+#paddingWrapper .loader {
+    padding: 1em 0 2em 0;
+}
+
+#paddingWrapper .dap-grid-top {
+    display: block;
+    background-color: #395F77;
+    color: white;
+    /*position: fixed;*/
+}
+
+#paddingWrapper .dap-grid-top p {
+    color: white;
+}
+
+#paddingWrapper .dap-grid-top:after {
+    content: '';
+    background-color: #395F77;
+    width: 1.2em;
+    height: 1.2em;
+    position: relative;
+    bottom: -1em;
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 400px; /* pga IE */
+    left: -webkit-calc(73%);
+    left: -moz-calc(73%);
+    /*left: calc(100% - 200px);*/
+}
+
+.versionSidelink select {
+    font-size: 0.8em;
+    height: 3rem;
+    width: unset;
+}
+
+/* Only multiple versions - add some blank */
+.versionWrapper > .version > select {
+    margin-top: 8px;
+}
+
+/* RSS fra prod */
+div.feed {
+    text-align: right;
+}
+
+div.feed a.feed {
+    margin-left: 3px;
+    padding: 0 0 0 19px;
+    background: url(images/RSSsmall.png) 0 50% no-repeat;
+    color: #3F6075;
+    font-weight: 400;
+    font-size: .8em;
+}
+
+/* kolofon */
+.links4u .subtreePrefixWrapper .metadata > div.name {
+    font-weight: bold;
+}
+
+.MPcontentHdrRowsWrapper.nextlevel > .MPcontentHdrRows > a {
+    margin-left: 3px;
+    padding: 0 0 0 19px;
+    background: url(images/linkicon.gif) 0 50% no-repeat;
+    color: #3F6075;
+    font-weight: 400;
+    font-size: .8em;
+}
+
+/*@media (min-width: 992px) {
+    .phone4u,
+    .link4u,
+    .rate4u, .links4u {
+        width: 260px;
+        margin: 0 auto;
+    }
+}*/

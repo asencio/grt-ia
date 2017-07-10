@@ -1,0 +1,369 @@
+@font-face {
+  font-family: 'dap-ikon-font';
+  src:  url('fonts/dap-ikon-font.eot?73dwbc');
+  src:  url('fonts/dap-ikon-font.eot?73dwbc#iefix') format('embedded-opentype'),
+    url('fonts/dap-ikon-font.ttf?73dwbc') format('truetype'),
+    url('fonts/dap-ikon-font.woff?73dwbc') format('woff'),
+    url('fonts/dap-ikon-font.svg?73dwbc#dap-ikon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="dap-ikon-"], [class*=" dap-ikon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dap-ikon-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dap-ikon-afloeb-draen:before {
+  content: "\e92e";
+}
+.dap-ikon-afskrivning:before {
+  content: "\e92f";
+}
+.dap-ikon-asbest-pcb-bly:before {
+  content: "\e930";
+}
+.dap-ikon-beregn:before {
+  content: "\e931";
+}
+.dap-ikon-boede:before {
+  content: "\e932";
+}
+.dap-ikon-boernepasning:before {
+  content: "\e933";
+}
+.dap-ikon-braendeovne:before {
+  content: "\e934";
+}
+.dap-ikon-doedsfald:before {
+  content: "\e935";
+}
+.dap-ikon-ejendomsvurdering:before {
+  content: "\e936";
+}
+.dap-ikon-excel:before {
+  content: "\e937";
+}
+.dap-ikon-fjernvarmeunits:before {
+  content: "\e938";
+}
+.dap-ikon-flytning:before {
+  content: "\e939";
+}
+.dap-ikon-formue:before {
+  content: "\e93a";
+}
+.dap-ikon-glasdoere:before {
+  content: "\e93b";
+}
+.dap-ikon-havearbejde:before {
+  content: "\e93c";
+}
+.dap-ikon-henvendelser:before {
+  content: "\e93d";
+}
+.dap-ikon-hjaelp:before {
+  content: "\e93e";
+}
+.dap-ikon-indenfor-eu:before {
+  content: "\e93f";
+}
+.dap-ikon-indstillinger:before {
+  content: "\e940";
+}
+.dap-ikon-information:before {
+  content: "\e941";
+}
+.dap-ikon-installation-af-varmepumper:before {
+  content: "\e942";
+}
+.dap-ikon-integrer:before {
+  content: "\e943";
+}
+.dap-ikon-intelligent-styring:before {
+  content: "\e944";
+}
+.dap-ikon-isolering-af-gulv:before {
+  content: "\e945";
+}
+.dap-ikon-isolering-af-tag:before {
+  content: "\e946";
+}
+.dap-ikon-isolering-af-ydervaegge:before {
+  content: "\e947";
+}
+.dap-ikon-job:before {
+  content: "\e948";
+}
+.dap-ikon-kalender:before {
+  content: "\e949";
+}
+.dap-ikon-kontakt:before {
+  content: "\e94a";
+}
+.dap-ikon-kontekstuel-lovgivning:before {
+  content: "\e94b";
+}
+.dap-ikon-ladestik-til-elbiler:before {
+  content: "\e94c";
+}
+.dap-ikon-loenindkomst:before {
+  content: "\e94d";
+}
+.dap-ikon-lyt:before {
+  content: "\e94e";
+}
+.dap-ikon-pdf:before {
+  content: "\e94f";
+}
+.dap-ikon-pension:before {
+  content: "\e950";
+}
+.dap-ikon-permeable-belaegninger:before {
+  content: "\e951";
+}
+.dap-ikon-play:before {
+  content: "\e952";
+}
+.dap-ikon-print:before {
+  content: "\e953";
+}
+.dap-ikon-problem:before {
+  content: "\e954";
+}
+.dap-ikon-punktafgifter:before {
+  content: "\e955";
+}
+.dap-ikon-radonsikring:before {
+  content: "\e956";
+}
+.dap-ikon-registreringsafgift:before {
+  content: "\e957";
+}
+.dap-ikon-rengoering:before {
+  content: "\e958";
+}
+.dap-ikon-renteudgifter-oevrige:before {
+  content: "\e959";
+}
+.dap-ikon-raadgivere-revisorer:before {
+  content: "\e95a";
+}
+.dap-ikon-raadgivning:before {
+  content: "\e95b";
+}
+.dap-ikon-segment:before {
+  content: "\e95c";
+}
+.dap-ikon-send:before {
+  content: "\e95d";
+}
+.dap-ikon-servicedesk:before {
+  content: "\e95e";
+}
+.dap-ikon-skattekort:before {
+  content: "\e95f";
+}
+.dap-ikon-skorsten:before {
+  content: "\e960";
+}
+.dap-ikon-solafskaermning:before {
+  content: "\e961";
+}
+.dap-ikon-starting-a-business:before {
+  content: "\e962";
+}
+.dap-ikon-su:before {
+  content: "\e963";
+}
+.dap-ikon-tilslutning-til-bredbaand:before {
+  content: "\e964";
+}
+.dap-ikon-transparens:before {
+  content: "\e965";
+}
+.dap-ikon-transport:before {
+  content: "\e966";
+}
+.dap-ikon-udvendigt-malerarbejde:before {
+  content: "\e967";
+}
+.dap-ikon-udvidet-indberetning:before {
+  content: "\e968";
+}
+.dap-ikon-unge:before {
+  content: "\e969";
+}
+.dap-ikon-upload:before {
+  content: "\e96a";
+}
+.dap-ikon-varmeanlaeg:before {
+  content: "\e96b";
+}
+.dap-ikon-ventilation:before {
+  content: "\e96c";
+}
+.dap-ikon-vindmoeller:before {
+  content: "\e96d";
+}
+.dap-ikon-vinduespudsning:before {
+  content: "\e96e";
+}
+.dap-ikon-virksomhed:before {
+  content: "\e96f";
+}
+.dap-ikon-yderdoere:before {
+  content: "\e970";
+}
+.dap-ikon-aarsopgoerelsen:before {
+  content: "\e971";
+}
+.dap-ikon-skatten-2016:before {
+  content: "\e92d";
+}
+.dap-ikon-menu:before {
+  content: "\e92c";
+}
+.dap-ikon-dagsbevis:before {
+  content: "\e91d";
+}
+.dap-ikon-eindkomst:before {
+  content: "\e91e";
+}
+.dap-ikon-facebook:before {
+  content: "\e91f";
+}
+.dap-ikon-forskning:before {
+  content: "\e920";
+}
+.dap-ikon-haandvaerkerfradrag:before {
+  content: "\e921";
+}
+.dap-ikon-instagram:before {
+  content: "\e922";
+}
+.dap-ikon-linkedin:before {
+  content: "\e923";
+}
+.dap-ikon-omregistrering:before {
+  content: "\e924";
+}
+.dap-ikon-pinterest:before {
+  content: "\e925";
+}
+.dap-ikon-skatten-2015:before {
+  content: "\e926";
+}
+.dap-ikon-skatten-2017:before {
+  content: "\e927";
+}
+.dap-ikon-twitter:before {
+  content: "\e928";
+}
+.dap-ikon-udland:before {
+  content: "\e929";
+}
+.dap-ikon-virksomhedsregistrering:before {
+  content: "\e92a";
+}
+.dap-ikon-youtube:before {
+  content: "\e92b";
+}
+.dap-ikon-loensumsafgift:before {
+  content: "\e91b";
+}
+.dap-ikon-cykel:before {
+  content: "\e917";
+}
+.dap-ikon-dk-flag:before {
+  content: "\e918";
+}
+.dap-ikon-ekapital:before {
+  content: "\e919";
+}
+.dap-ikon-kuffert:before {
+  content: "\e91a";
+}
+.dap-ikon-more:before {
+  content: "\e91c";
+}
+.dap-ikon-underholdsbidrag:before {
+  content: "\e916";
+}
+.dap-ikon-afgifter:before {
+  content: "\e900";
+}
+.dap-ikon-aktier:before {
+  content: "\e901";
+}
+.dap-ikon-ansatte-og-loen:before {
+  content: "\e902";
+}
+.dap-ikon-arrow:before {
+  content: "\e903";
+}
+.dap-ikon-bil:before {
+  content: "\e904";
+}
+.dap-ikon-borger:before {
+  content: "\e905";
+}
+.dap-ikon-ejendom:before {
+  content: "\e906";
+}
+.dap-ikon-erhverv:before {
+  content: "\e907";
+}
+.dap-ikon-foreninger:before {
+  content: "\e908";
+}
+.dap-ikon-fradrag:before {
+  content: "\e909";
+}
+.dap-ikon-gaver:before {
+  content: "\e90a";
+}
+.dap-ikon-hjaelp-til-tastselv:before {
+  content: "\e90b";
+}
+.dap-ikon-indkomst-og-skat:before {
+  content: "\e90c";
+}
+.dap-ikon-ivaerksaetter:before {
+  content: "\e90d";
+}
+.dap-ikon-log-ind:before {
+  content: "\e90e";
+}
+.dap-ikon-luk:before {
+  content: "\e90f";
+}
+.dap-ikon-laan:before {
+  content: "\e910";
+}
+.dap-ikon-moms:before {
+  content: "\e911";
+}
+.dap-ikon-personalegoder:before {
+  content: "\e912";
+}
+.dap-ikon-skattekonto:before {
+  content: "\e913";
+}
+.dap-ikon-soeg:before {
+  content: "\e914";
+}
+.dap-ikon-told:before {
+  content: "\e915";
+}
+
